@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #fffafc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgb(255, 200, 220);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #ffe8f2;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url('https://thumbs.dreamstime.com/b/stylish-array-colorful-dresses-hangers-chic-boutique-display-concept-fashionable-attire-trendy-clothing-shopping-389715022.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.hero-content h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: rgb(255, 170, 190);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: rgb(255, 150, 180);
+}
+
+/* Collection Section */
+.collection {
+  padding: 80px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.collection h2 {
+  color: rgb(255, 130, 160);
+  margin-bottom: 30px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery .item {
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+/* About Section */
+.about {
+  padding: 80px 20px;
+  background: rgb(255, 240, 245);
+  text-align: center;
+}
+
+.about h2 {
+  color: rgb(255, 100, 140);
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 17px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 80px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.contact h2 {
+  color: rgb(255, 130, 160);
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  background: rgb(255, 200, 220);
+  color: white;
+  padding: 15px;
+  font-size: 14px;
+}
