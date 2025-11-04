@@ -308,5 +308,4 @@ footer {
 
 Syeda Rida Faseeh
 
-> Oasis Infobyte Internship – Task 1: Landing Page
-Built using HTML and CSS.
+Oasis Infobyte Internship – Task 1: Landing Page built using HTML and CSS.
